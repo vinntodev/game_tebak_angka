@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game Tebak Angka - Dark Mode</title>
+  </head>
+  <body>
+    <button id="dark-toggle">🌙 Dark Mode</button>
+
+    <div id="game-container">
+      <h2>Game Tebak Angka</h2>
+      <p>Tebak angka antara <strong>1 sampai 100</strong>!</p>
+      <div class="form-group">
+        <input
+          type="number"
+          id="guess"
+          min="1"
+          max="100"
+          placeholder="Masukkan angka"
+        />
+        <button id="submit-guess">Tebak!</button>
+      </div>
+      <div id="result"></div>
+      <div id="attempts"></div>
+      <button id="reset">Main Lagi</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
