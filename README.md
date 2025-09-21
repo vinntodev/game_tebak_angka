@@ -1,4 +1,5 @@
 # 🎯 Game Tebak Angka (jQuery + CSS Modern)
+![game_image](https://github.com/vinntodev/game_tebak_angka/blob/0dcba960f4abcac694f49851359425002b94fd10/game_tebak_angka.jpeg)
 
 Game mini berbasis web yang dibuat dengan **jQuery** dan **CSS stylish**, di mana pemain harus menebak angka acak dari 1 hingga 100.  
 Tampilan sudah responsif, mendukung **dark mode**, dan dibuat dengan sentuhan visual modern.
